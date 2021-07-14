@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>OPD Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body style="background-image: url('file:///C:/xampp/htdocs/New%20folder/images/Hospital-HITN.jpg');">
+<style>
+
+
+.formstyle  
+{  
+width: 500px;  
+height: 650px;  
+margin: right;  
+border: 3px solid skyblue;  
+border-radius: 50px;  
+padding: 20px; 
+background-color:blue;
+color:white; 
+}    
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: LightBlue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(file:///C:/xampp/htdocs/New%20folder/images/iStock529114056.jpg) 0 0;
+}
+
+</style>
+
+
+<ul><li><a class="active" href="https://aadharhealth.com/appointments/">FAQ</a></li>
+  <li><a href="https://aadharhealth.com/current-opening/">Career</a></li>
+  <li><a href="https://aadharhealth.com/book-your-appointment/">Book Appointment</a></li>
+  
+  <!-- Add font awesome icons -->
+  <br>
+  <a style="float:right; font-size: 30px" href="#" class="fa fa-youtube"></a> 
+  <a  style="float:right; font-size: 30px" href="#" class="fa fa-instagram"></a>
+  <a style="float:right; font-size: 30px" href="#" class="fa fa-twitter"></a>
+  <a style="float:right; font-size: 30px" href="#" class="fa fa-facebook"></a>
+  <br><br>
+</ul>
+<ul>
+  <img id="home" src="file:///C:/xampp/htdocs/New%20folder/images/Screenshot%202021-07-07%20164313.png" width="10" height="10">
+  <br>
+  <li><a style="color: Tamato"><b>E-Hospital center</b></li></a>
+
+   
+  <center>
+  <li><a class="active" href ="file:///C:/xampp/htdocs/New%20folder/Form.html  ">About</a></li>
+  <li><a href ="file:///C:/xampp/htdocs/New%20folder/departments.html">Departments</a></li>
+  <li><a href ="file:///C:/xampp/htdocs/New%20folder/doctors.html">Our Doctors </a> </li>
+  <li><a href ="file:///C:/xampp/htdocs/New%20folder/Galery.html">Gallery</a></li>
+  <li><a href ="https://aadharhealth.com/blog-post/"> News</a></li>
+  <li><a style ="background-color: #ff4d4d;"> Book your Appointment <br> [CALL NOW: +919034951525]</a></li>
+
+</ul>
+
+
+<center>
+<h2><b>Hospital Enterence Form</b></h2>
+<div class= "formstyle">    
+<form name="myForm1" action="file:///C:/xampp/htdocs/New%20folder/opd.html" onsubmit="return validateForm()" method="post">
+  <br><br>
+  First Name: <input type="text" First Name="fname"><br><br>
+  Last Name: <input type="text" Last Name="fname"><br><br>
+  Age: <input type="text" Age="fname"><br><br>
+  Address: <input type="text" Address="fname"><br><br>
+  Contact Number: <input type="text" Contact Nuber="fname"><br><br>
+  <p9>Are you have any particular dieases? </p9>
+ <br><br>
+  <input type="checkbox" id="diseases1" name="diseases1" value="Covid-19">
+  <label for="diseases1"> I am suffering from covid-19</label><br>
+  <input type="checkbox" id="diseases2" name="diseases2" value="Normal cuff & flu">
+  <label for="diseases2"> I am suffering from cuff & flu</label><br>
+  <input type="checkbox" id="diseases3" name="diseases3" value="Cardiovascular Diseases">
+  <label for="diseases3"> I am suffering from Cardiovascular Diseases</label><br><br>
+  <input type="checkbox" id="diseases4" name="diseases4" value="Respiratory Diseases">
+  <label for="diseases4"> I am suffering from Respiratory Diseases</label><br><br>
+  <input type="checkbox" id="diseases5" name="diseases5" value="Digestive Diseases">
+  <label for="diseases5"> I am suffering from Digestive Diseases</label><br><br>
+  <input type="checkbox" id="diseases6" name="diseases6" value="Tuberculosis">
+  <label for="diseases6"> I am suffering from Tuberculosis</label><br><br>
+  <input type="checkbox" id="diseases7" name="diseases7" value="Tumours">
+  <label for="diseases7"> I am suffering from Tumours</label><br><br>
+  <input type="checkbox" id="diseases8" name="diseases8" value="other">
+  <label for="diseases8"> I am suffering from other dieases</label><br><br>
+  <input type="checkbox" id="diseases9" name="diseases9" value="Normal">
+  <label for="diseases9"> I am Normal</label><br><br>
+  <input type="submit" value="Submit">
+ 
+  
+</form>
+
+
+</div>
+</body>
+</html>

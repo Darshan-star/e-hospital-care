@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>OPD Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: LightBlue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(file:///C:/xampp/htdocs/New%20folder/images/iStock529114056.jpg) 0 0;
+}
+
+</style>
+
+
+<ul><li><a class="active" href="https://aadharhealth.com/appointments/">FAQ</a></li>
+  <li><a href="https://aadharhealth.com/current-opening/">Career</a></li>
+  <li><a href="https://aadharhealth.com/book-your-appointment/">Book Appointment</a></li>
+  
+  <!-- Add font awesome icons -->
+  <br>
+  <a style="float:right; font-size: 30px" href="#" class="fa fa-youtube"></a> 
+  <a  style="float:right; font-size: 30px" href="#" class="fa fa-instagram"></a>
+  <a style="float:right; font-size: 30px" href="#" class="fa fa-twitter"></a>
+  <a style="float:right; font-size: 30px" href="#" class="fa fa-facebook"></a>
+  <br><br>
+</ul>
+<ul>
+  <img id="home" src="file:///C:/xampp/htdocs/New%20folder/images/Screenshot%202021-07-07%20164313.png" width="5" height="5">
+  <br>
+  <li><a style="color: Tamato"><b>E-Hospital center</b></li></a>
+
+   
+  <center>
+  <li><a class="active" href ="file:///C:/xampp/htdocs/New%20folder/Form.html  ">About</a></li>
+  <li><a href ="file:///C:/xampp/htdocs/New%20folder/departments.html">Departments</a></li>
+  <li><a href ="file:///C:/xampp/htdocs/New%20folder/doctors.html">Our Doctors </a> </li>
+  <li><a href ="file:///C:/xampp/htdocs/New%20folder/Galery.html">Gallery</a></li>
+  <li><a href ="https://aadharhealth.com/blog-post/"> News</a></li>
+  <li><a style ="background-color: #ff4d4d;"> Book your Appointment <br> [CALL NOW: +919034951525]</a></li>
+
+</ul>
+
+<h1><b><u> Tuberculosis (TB) </b></u></h1>
+<p1> 
+   It is an infectious disease that generally affects the lungs but may affect other body parts as well. 
+   But the good news is that tuberculosis is curable and preventable.<br>
+    ________________________________________________________________________________________
+    ________________________________________________________________________________________
+</p1>
+ 
+
+<embed style="width: 350px; height: 250px;" src="https://www.youtube.com/embed/202hkf43HXQ" > </embed>
+
+
+<div class="container-fluid">
+     <div class="accordion">
+          <div class="icon"></div>
+          <h3>What are the Symptoms of TB?</h3>
+     </div>
+     <div class="panel">
+          <p2> The most common symptom of Tuberculosis is lasting for more than 3 weeks. 
+          Other symptoms include - <br>
+
+           ->Fatigue<br>
+           ->Coughing up blood<br>
+           ->Fever<br>
+           ->Chills<br>
+           ->Night sweats<br>
+           ->Loss of appetite<br>
+           ->Unintentional weight loss </p2>
+     </div>
+
+
+     <div class="accordion">
+          <div class="icon"></div>
+          <h3>What are the Causes of TB?</h3>
+     </div>
+     <div class="panel">
+          Tuberculosis can be caused because of:<br>
+
+          ->Weakened immune system<br>
+          ->Traveling or living in certain areas<br>
+          ->Saliva droplets spreading from person to person when the infected person coughs or sneezes <br>
+          ->Friends and family of the infected person   </p2>
+     </div>
+
+
+</div>
+
+
+
+
+<script>
+var acc = document.getElementsByClassName('accordion');
+
+var i;
+
+var len = acc.length;
+for(i=0; i<len; i++){
+    acc[i].addEventListener('click', function(){
+        this.classList.toggle('active');
+        var panel = this.nextElementSibling;
+        if(panel.style.maxHeight){
+             panel.style.maxHeight = null;
+        } else {
+             panel.style.maxHeight = panel.scrollHeight +'px'
+        }
+    })
+}
+</script>
+
+
+<h4 style="color:white; background-color: black; text-size:50px; text-align:right;"><br> Designed by:-  Darshan Yadav </h4>
+
+</body>
+</html>
